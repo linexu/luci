@@ -220,7 +220,7 @@
  }
 
  small {
- 	font-size: smaller;
+ 	font-size: large;
  	color: #ffff;
  }
 
@@ -1600,7 +1600,7 @@
  }
 
  .cbi-value-description {
- 	font-size: small;
+ 	font-size: large;
  	padding-top: 0.4rem;
  	opacity: 0.5;
  	color: #fff;
@@ -2068,7 +2068,7 @@
  }
 
  .modal .label {
- 	font-size: 0.6rem;
+ 	font-size: 0.8rem;
  	font-weight: 400;
  	cursor: default;
  	border-radius: 0;
@@ -2104,7 +2104,7 @@
 
  .spinning::before {
  	position: absolute;
- 	font-size: medium;
+ 	font-size: large;
  	font-style: "Quicksand-Bold";
  	left: 8px;
  	width: 16px;
@@ -2216,7 +2216,7 @@
  }
 
  #syslog {
- 	font-size: small;
+ 	font-size: large;
  	overflow-y: hidden;
  	width: 100%;
  	min-height: 15rem;
@@ -2659,7 +2659,7 @@
  #cbi-firewall-redirect table *,
  #cbi-network-switch_vlan table *,
  #cbi-firewall-zone table * {
- 	font-size: small;
+ 	font-size: large;
  }
 
  #cbi-firewall-redirect table input[type="text"],
