@@ -1535,7 +1535,7 @@
  .tabs>li>a,
  .cbi-tabmenu>li>a {
  	text-decoration: none;
- 	color: #ffffff;
+ 	color: #abb3bf;
  	padding: 0.6rem 0.9rem;
 
  }
@@ -3142,7 +3142,7 @@
 	.main>.main-left>.nav>li>[data-title="Logout"],
   .main>.main-left>.nav>li>[data-title="iStore"] {
  		font-size: 1rem;
- 		color: #fff;
+ 		color: #6eabff;
  	}
 
  	.main>.main-left>.nav>.slide>.slide-menu>li>a {
@@ -3589,7 +3589,7 @@
  .tabs>li>a,
  select,
  input {
- 	font-size: 0.9rem;
+ 	font-size: 1rem;
  }
 
 .cbi-filebrowser {
