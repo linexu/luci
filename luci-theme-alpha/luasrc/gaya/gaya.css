@@ -197,7 +197,7 @@
 
  em {
  	font-style: italic;
- 	color: #fff
+ 	color: #000;
  }
 
  p {
@@ -279,6 +279,7 @@
  .table[width="33%"],
  .th[width="33%"],
  .td[width="33%"] {
+	font-size: medium;
  	width: 33%;
  }
 
@@ -424,11 +425,12 @@
 
  code {
  	font-size: 1rem;
- 	font-size-adjust: 0.35;
- 	color: #101010;
- 	border-radius: 0px;
+ 	font-size-adjust: 0.5;
+	font-weight: bold;
+ 	color: #000000;
+ 	border-radius: 10px;
  	background: #ddd;
- 	padding: 1px 3px;
+ 	padding: 0 10px;
  }
 
  abbr {
@@ -776,7 +778,7 @@
 
  strong {
  	font-weight: bold;
- 	color: rgb(255, 255, 255);
+ 	/*color: #ff0000;*/
  }
 
  .main-right {
@@ -1150,12 +1152,12 @@
  	letter-spacing: 2px;
  	padding-bottom: 10px;
  	margin: 2rem 0 0;
- 	color: #ffffff;
+ 	color: #1c929f;
  }
 
  h4 {
- 	font-size: 1.2rem;
- 	color: #fff;
+ 	font-size: 1.1rem;
+ 	color: #78acff;
  	padding-bottom: 10px;
  	margin: 2rem 0 0;
  }
@@ -1173,7 +1175,9 @@
  }
 
  #tabmenu {
- 	padding: 0;
+	background: #215db0;
+	-webkit-border-radius: 20px;
+	padding: 0;
  }
 
  .cbi-section,
@@ -1236,7 +1240,7 @@
  	display: block;
  	width: 100%;
  	padding-bottom: 1rem;
- 	color: #e4e4e4;
+ 	color: #1c929f;
  	border-bottom: thin solid #eeeeee00;
  	margin: 0 0 0.5rem;
  }
@@ -1313,7 +1317,7 @@
  .btn,
  .cbi-button,
  .item::after {
- 	font-size: 0.8rem;
+ 	font-size: 1rem;
  	display: inline-block;
  	width: auto !important;
  	cursor: pointer;
@@ -1329,7 +1333,7 @@
  	text-transform: uppercase;
  	color: rgba(0, 0, 0, 0.87);
  	border: 0;
- 	background-color: #f0f0f0;
+ 	background-color: #238551;
  	background-image: none;
  	-webkit-appearance: none;
  	-ms-touch-action: manipulation;
@@ -1338,10 +1342,11 @@
  }
 
  .cbi-button-up {
- 	transform: scaleY(-1);
+ 	/*transform: scaleY(-1);*/
  }
 
  .cbi-button:not(select) {
+	margin: 0 30px;
  	-webkit-appearance: none !important;
  }
 
@@ -1408,7 +1413,7 @@
  .cbi-button[name="restart"],
  .cbi-button[onclick="hide_empty(this)"] {
  	font-weight: 700;
- 	background-color: #d4d4d4;
+ 	background-color: #238551;
  }
 
  .btn.primary,
@@ -1490,7 +1495,7 @@
  .cbi-value-field .cbi-button-add {
  	font-weight: 700;
  	margin: 9px 0 4px 3px;
- 	padding: 1px 6px;
+ 	padding: 6px 13px;
  }
 
  .tabs {
@@ -1535,12 +1540,13 @@
  .tabs>li>a,
  .cbi-tabmenu>li>a {
  	text-decoration: none;
- 	color: #abb3bf;
+ 	color: #ffc37f;
  	padding: 0.6rem 0.9rem;
 
  }
 
  .tabs>li[class~="active"]>a {
+	font-size: x-large;
  	color: var(--main-color);
  }
 
@@ -1677,6 +1683,8 @@
 
  .tr[data-title]::before,
  .tr.cbi-section-table-titles.named::before {
+	background-color: #4a6799;
+	color: #fff;
  	font-weight: 700;
  	display: table-cell;
  	align-self: center;
@@ -1903,9 +1911,9 @@
  	width: auto;
  	min-width: 100%;
  	max-width: none;
- 	max-height: 200px !important;
+ 	/*max-height: 240px !important;*/
  	border: thin solid #918e8c;
- 	background: #787878a8;
+ 	background: #215db0;
  	box-shadow: 0 0 4px #918e8c;
  	color: var(--main-menu-color);
  }
@@ -1934,7 +1942,7 @@
  }
 
  .cbi-dropdown[open]>ul.dropdown>li:last-child {
- 	margin-bottom: 0;
+ 	/*margin-bottom: 0;*/
  }
 
  .cbi-dropdown[open]>ul.dropdown>li[unselectable] {
@@ -1951,12 +1959,13 @@
  }
 
  .cbi-progressbar {
+	font-size: small;
  	border-radius: 15px;
  	overflow: hidden;
  	position: relative;
  	min-width: 170px;
  	height: 30px;
- 	background: #11111d61;
+ 	background: #7b7b8961;
  	margin: 6px 0;
  }
 
@@ -1973,13 +1982,14 @@
  	width: 0;
  	height: 100%;
  	transition: width 2s ease-in;
- 	background: #0099cc;
+ 	background: #405884;
  	padding: 0.5rem;
  }
 
  .cbi-progressbar::after {
+	color: #78acff;
  	font-family: monospace;
- 	font-size: 2em;
+ 	font-size: 1.6em;
  	font-weight: 700;
  	font-size-adjust: 0.38;
  	line-height: normal;
@@ -1993,7 +2003,7 @@
  	text-align: center;
  	white-space: pre;
  	text-overflow: ellipsis;
- 	text-shadow: 0 0 10px #eee;
+ 	/*text-shadow: 0 0 10px #eee;*/
  }
 
  #modal_overlay {
@@ -2166,7 +2176,7 @@
  td>.ifacebadge,
  .td>.ifacebadge {
  	font-size: 0.8rem;
- 	background-color: #000000;
+ 	background-color: #7e6956;
  	border-radius: 10px;
  }
 
@@ -2400,7 +2410,7 @@
  td.cbi-value-field var,
  .td.cbi-value-field var {
  	font-style: italic;
- 	color: #0069d6;
+ 	color: #0f0;
  }
 
  .cbi-optionals {
@@ -2483,8 +2493,8 @@
  label>input[type="checkbox"],
  label>input[type="radio"] {
  	position: relative;
- 	top: 0.4rem;
- 	right: 0.2rem;
+ 	top: 0.5rem;
+ 	right: -0.2rem;
  	vertical-align: bottom;
  	margin: 0;
  }
@@ -2659,7 +2669,7 @@
  #cbi-firewall-redirect table *,
  #cbi-network-switch_vlan table *,
  #cbi-firewall-zone table * {
- 	font-size: large;
+ 	/*font-size: large;*/
  }
 
  #cbi-firewall-redirect table input[type="text"],
@@ -2928,6 +2938,7 @@
  .tr.cbi-section-table-titles>.th,
  #iwsvg,
  [data-page="admin-status-realtime-bandwidth"] #bwsvg {
+	background-color: #4a6799;
  	border-top: 0 !important;
  }
 
@@ -3037,8 +3048,8 @@
 
  	.btn:not(button),
  	.cbi-button {
- 		font-size: 0.8rem;
- 		padding: 0.3rem 0.6rem;
+ 		font-size: 1rem;
+ 		padding: 0.5rem 1rem;
  		position: relative;
  		/*bottom: -0.5rem;*/
  	}
@@ -3116,7 +3127,7 @@
  	}
 
  	table {
- 		font-size: 0.9rem !important;
+ 		font-size: 0.95rem !important;
  		width: 100% !important;
  	}
 
@@ -3146,8 +3157,8 @@
  	}
 
  	.main>.main-left>.nav>.slide>.slide-menu>li>a {
- 		font-size: 0.9rem;
- 		color: #fff;
+ 		font-size: 1rem;
+ 		color: #00ceff;
  	}
 
  	#modal_overlay {
@@ -3589,7 +3600,7 @@
  .tabs>li>a,
  select,
  input {
- 	font-size: 1rem;
+ 	font-size: 1.1rem;
  }
 
 .cbi-filebrowser {

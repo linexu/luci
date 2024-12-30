@@ -283,7 +283,7 @@ label {
 	width: 100%;
 	top: 0px;
 	color: #fff;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	line-height: 2.5;
@@ -334,8 +334,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background-color: #df405a;
-	border: 1px #df405a solid;
+	background-color: #238551;
+	border: 1px #238551 solid;
 }
 
 input[type=submit]:focus {
