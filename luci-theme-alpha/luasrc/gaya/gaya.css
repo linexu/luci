@@ -353,6 +353,7 @@ html {
 }
 
 body {
+	color: #fff;
 	font-size: 16px;
 	height: 100%;
 	background-position: center;
@@ -363,6 +364,8 @@ body {
 }
 
 .text {
+	align-self: center;
+	text-align: center;
 	font-style: italic;
 	color: #fff;
 }
@@ -777,7 +780,7 @@ small {
 
 strong {
 	font-weight: bold;
-	/*color: #b0cff9;*/
+	/*color: var(--main-color);*/
 }
 
 .main-right {
@@ -2858,7 +2861,7 @@ input[name="nslookup"] {
 
 .alert-message .btn,
 .modal .btn {
-	padding: 6px 10px;
+	padding: 6px 13px;
 }
 
 .container .alert,
@@ -2935,7 +2938,7 @@ table>thead>tr>th,
 .uci-change-list del,
 .uci-change-list ins,
 .cbi-section-remove {
-	text-align: start;
+	/*text-align: start;*/
 	/*background-color: #405681;*/
 	padding: 0.5rem;
 }
@@ -2949,7 +2952,7 @@ table>thead>tr>th,
 #iwsvg,
 [data-page="admin-status-realtime-bandwidth"] #bwsvg {
 	width: auto !important;
-	text-align: start;
+	/*text-align: start;*/
    background-color: #40547f;
 	border-top: 0 !important;
 }

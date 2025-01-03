@@ -2769,7 +2769,7 @@ table table,.table .table,.cbi-value-field table,.cbi-value-field .table,td>tabl
 .cbi-tabmenu {
     color: white;
     padding: 10px 0 0 10px;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow-x: auto
 }
 
@@ -4613,13 +4613,13 @@ pre.command-output {
 
 [data-page^="admin-services-openclash"] .cbi-tabmenu>li {
     border-right: none !important;
-    margin: 0 5px 0 0 !important;
+    margin: 0 5px 5px 0 !important;
     padding: 10px 0 8px 0 !important
 }
 
 [data-page^="admin-services-openclash"] .cbi-tabmenu>li:last-child {
     margin-right: 0 !important;
-    padding: 10px 0 8px 0 !important
+    padding: 12px 0 8px 0 !important
 }
 
 [data-page^="admin-services-openclash"] #tab-content .dom {
