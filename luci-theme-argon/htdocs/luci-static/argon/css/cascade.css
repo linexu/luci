@@ -3456,7 +3456,7 @@ table table,.table .table,.cbi-value-field table,.cbi-value-field .table,td>tabl
     flex-wrap: wrap;
     width: 90%;
     min-width: 270px;
-    max-width: 600px;
+    max-width: 60%;
     min-height: 32px;
     margin: 5em auto;
     padding: 1rem;
@@ -3474,7 +3474,7 @@ table table,.table .table,.cbi-value-field table,.cbi-value-field .table,td>tabl
 
 .modal>pre,.modal>textarea {
     font-size: 1rem;
-    font-size-adjust: .35;
+    font-size-adjust: .5;
     overflow: auto;
     margin-bottom: .5em;
     padding: 8.5px;
@@ -4547,7 +4547,7 @@ input[type="checkbox"] {
     padding: 0;
     cursor: pointer;
     transition: all .2s;
-    margin: .75rem 0 0 0
+    margin: .75rem 5px 15px 0
 }
 
 input[type="checkbox"]:checked {
