@@ -2094,6 +2094,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {}
 }
 
 .modal .label.warning {
+	border-radius: 3px;
 	background-color: #f0ad4e !important;
 }
 
@@ -2441,6 +2442,7 @@ span[data-tooltip] .label {
 	text-align: left !important;
 	font-size: 90% !important;
 	color: #fff !important;
+	border-radius: 3px;
 }
 
 .cbi-tooltip {
@@ -2804,7 +2806,7 @@ input[name="nslookup"] {
 
 #modemenu>li>a,
 .label {
-	background-color: #215db0;
+	background-color: #bfbfbf;
 	color: #fff !important;
 	font-size: 16px;
 	font-weight: 700;
@@ -2852,7 +2854,7 @@ input[name="nslookup"] {
 
 #modemenu>li>a.active,
 .notice {
-	background-color: #238551 !important;
+	background-color: #11cdef !important;
 }
 
 #xhr_poll_status,
