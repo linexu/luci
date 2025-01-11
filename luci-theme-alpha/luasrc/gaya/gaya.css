@@ -2439,7 +2439,7 @@ span[data-tooltip],
 span[data-tooltip] .label {
 	cursor: help !important;
 	text-align: left !important;
-	font-size: 80% !important;
+	font-size: 90% !important;
 	color: #fff !important;
 }
 
@@ -2804,7 +2804,7 @@ input[name="nslookup"] {
 
 #modemenu>li>a,
 .label {
-	background-color: rgb(104, 104, 104);
+	background-color: #215db0;
 	color: #fff !important;
 	font-size: 16px;
 	font-weight: 700;
@@ -2852,7 +2852,7 @@ input[name="nslookup"] {
 
 #modemenu>li>a.active,
 .notice {
-	background-color: rgb(66, 66, 66) !important;
+	background-color: #238551 !important;
 }
 
 #xhr_poll_status,

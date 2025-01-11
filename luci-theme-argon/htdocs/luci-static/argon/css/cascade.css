@@ -4038,7 +4038,7 @@ div.cbi-value var,td.cbi-value-field var,.td.cbi-value-field var {
 
 label>input[type="checkbox"],label>input[type="radio"] {
     position: relative;
-    top: .4rem;
+    /*top: .4rem;*/
     right: .2rem;
     margin: 0;
     vertical-align: bottom
